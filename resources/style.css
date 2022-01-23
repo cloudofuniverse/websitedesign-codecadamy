@@ -23,7 +23,7 @@ nav ul {
     background: hsl(196, 59%, 75%);
     width: 100%;
     position: fixed;
-    min-width: 500px;
+    min-width: 400px;
 }
 
 #homebutton {
