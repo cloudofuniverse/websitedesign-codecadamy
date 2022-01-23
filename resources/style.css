@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    color: hsl(0, 0%, 0%);
+    background-color: white;
+}
+
+nav ul {
+    overflow: hidden;
+    display: block;
+    text-align: left;
+    height: auto;
+    padding: 0;
+    background: hsl(196, 59%, 75%);
+    min-width: 300px;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    position: left;
+    padding: 16px 25px;
+    color: hsl(0, 0%, 0%);
+}
+
+h1 {
+    font-family: "Nanum Brush Script";
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: "Share Tech Mono";
+    font-size: 30px;
+    font-weight: 500;
+}
+
+p, li {
+    font-family: "Train One";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+header h1 {
+    text-align: left;
+    margin: 30px;
+}
+
+nav ul li:hover{
+    background: hsl(208, 30%, 55%);
+    color: hsl(0, 0%, 100%);
+}
+
+main section {
+    text-align: center;
+    margin: 30px;
+    border: solid gray 5px;
+    border-radius: 12px;
+    background: whitesmoke;
+    padding: 20px;
+}
+
+main section article {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.fonts p {
+    padding: 5px;
+}
+
+#subtitle {
+    text-decoration: underline;
+}
+
+#mono p {
+    font-family: "Share Tech Mono";
+}
+
+#nanum p {
+    font-family: "Nanum Brush Script";
+}
+
+.colors article {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 45px;
+    border: 3px solid;
+    border-radius: 15px;
+}
+
+#cyan {
+    background-color: hsl(187, 100%, 91%);
+}
+
+#photon {
+    background-color: hsl(196, 59%, 75%);
+}
+
+#cerulean {
+    background-color: hsl(208, 30%, 55%);
+}
+
+#forest {
+    background-color: hsl(146, 31%, 50%);
+}
+
+#spring {
+    background-color: hsl(151, 69%, 26%);
+}
+
+.styles ul {
+    margin: 15px auto;
+}
