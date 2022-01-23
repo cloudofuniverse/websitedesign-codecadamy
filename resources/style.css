@@ -51,6 +51,11 @@ a:hover {
     color: hsl(0, 0%, 100%);
 }
 
+.anchor {
+    position: absolute;
+    transform: translateY(-50vh);
+  }
+
 h1 {
     font-family: "Nanum Brush Script";
     font-size: 64px;
