@@ -23,20 +23,25 @@ nav ul {
     background: hsl(196, 59%, 75%);
     width: 100%;
     position: fixed;
-    min-width: 300px;
+    min-width: 400px;
+}
+
+#homebutton {
+    float: right;
+    font-weight: bold;
 }
 
 nav ul li {
     float: left;
     display: block;
     position: left;
-    padding: 16px 25px;
     color: hsl(0, 0%, 0%);
 }
 
 a {
     text-decoration: none;
     color: hsl(0, 0%, 0%);
+    display: block;
     padding: 16px 25px;
 }
 
